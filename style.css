@@ -204,7 +204,7 @@ html {
   font-size: 15px;
   color: #334;
   text-align: left;
-   margin-top: 10px;
+  margin-top: 10px;
   margin-left: 15%;
   margin-bottom: 25px;
 }
@@ -240,20 +240,20 @@ html {
   }
   .col .col-desc {
     margin-top: 10%;
-/*     font-size: 10px; */
+    /*     font-size: 10px; */
     align-items: center;
     text-align: center;
   }
-  .col-desc span {
-    font-size: 30px;
+  .col .col-desc span {
+    font-size: 40px;
     text-align: center;
     align-items: center;
     margin: auto;
   }
-   .col-desc h3 {
+  .col-desc h3 {
     font-size: 15px;
     color: #334;
-    font-weight:500px;
+    font-weight: 500px;
     margin-left: 25%;
     margin-bottom: 25px;
   }
