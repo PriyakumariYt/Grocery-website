@@ -204,7 +204,8 @@ html {
   font-size: 15px;
   color: #334;
   text-align: left;
-  margin-left: 20%;
+   margin-top: 10px;
+  margin-left: 15%;
   margin-bottom: 25px;
 }
 .col-desc .btn {
@@ -244,7 +245,7 @@ html {
     text-align: center;
   }
   .col-desc span {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     align-items: center;
     margin: auto;
