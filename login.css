@@ -181,7 +181,27 @@ input[type="email"] {
   background-color: aquamarine;
 }
 @media (max-width: 768px) {
+  .container {
+    margin: 50px auto;
+    height: 300px;
+    width: 250px;
+    border-radius: 30px;
+  }
+
   .container h1 {
-    font-size: 28px;
+    font-size: 20px;
+  }
+
+  #form {
+    height: 150px;
+    width: 150px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    padding: 8px 5px 8px 5px;
+    font-size: 13px;
+    margin: 0px 3px 12px;
+    border-radius: 5px;
   }
 }
