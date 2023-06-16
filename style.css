@@ -184,6 +184,26 @@ html {
   height: 375px;
   width: 100%;
 }
+img.img-updown {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
 .col .col-desc {
   margin-top: 20%;
   align-items: center;
